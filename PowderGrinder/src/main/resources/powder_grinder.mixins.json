@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.skyblock.powder.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GameRendererMixin"
+  ],
+  "client": [
+    "ClientTickMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
